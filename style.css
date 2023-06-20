@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+
+    padding-top:800px ;
+    
+    text-align: center;
+} 
+.profile {
+   
+    width:400px;
+    height: 300px;
+   
+}
+#home {
+    position:absolute ;
+    bottom: 0;
+    background: linear-gradient(red 0%, orange 100% );
+    display:table ;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#name{
+    font-family: 'Anton', sans-serif;
+
+}
+
+#bio{
+    font-size: 30px;
+    margin-left: 10% ;
+    margin-right: 10%;
+   
+}
+.line{
+    height: 7px;
+    background-color: coral;
+    width: 90px;
+    margin: 8px auto;
+}
+.h{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    
+    
+}
+.links{
+
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 40px;
+}
+.links:hover{
+    text-decoration: underline;
+
+}
+#vids,#work,#writings,#contact{
+    font-size: 30px;
+    margin-top: 200px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+#contact iframe{
+    width: 100%;
+}
+
+.contact1 h3 {
+display: inline;
+}
